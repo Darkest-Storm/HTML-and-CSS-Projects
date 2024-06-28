@@ -1,0 +1,21 @@
+/* CSS Table Assignment add the following styling to our table
+Background color
+Font color
+Hover selector
+Border */
+
+tr, th {
+	background-color: black;
+	color: cornsilk;
+}
+tr, td {
+	background-color: darkgreen;
+	color: white;
+}
+td:hover {
+	background-color: yellow;
+	color:black;
+}
+table {
+	border: 3px solid silver;
+}
