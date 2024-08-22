@@ -12,13 +12,41 @@
     border: 5px double #fff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  animation: mymove 1.5s;
+  position: relative;
+  /* animation: zoominoutsinglefeatured 1.5s forwards; */
+}
+
+@keyframes mymove {
+  0% {top: 0px;}
+  50% {top: 100px;}
+  100% {top: 0px;}
+}
+
+@keyframes zoominoutsinglefeatured {
+  0% {
+      transform: scale(1,1);
+  }
+  50% {
+      transform: scale(1.2,1.2);
+  }
+  100% {
+      transform: scale(1,1);
+  }
+}
+
 body{
     background-color: black;
     color: white;
     text-align: center;
 }
 
-.contact-us input[type="text"], [type='email'] {
+.contact-us input[type="text"], [type="tel"], [type='email'] {
     font-size: 15px;
     outline: none;
     font-weight: 600;
@@ -36,7 +64,7 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
-.contact-us input[type="text"]:hover, [type='email']:hover {
+.contact-us input[type="text"]:hover, [type="tel"]:hover, [type='email']:hover {
     box-shadow: 0 0 18px rgba(100, 65, 0, 0.8);
 }
 

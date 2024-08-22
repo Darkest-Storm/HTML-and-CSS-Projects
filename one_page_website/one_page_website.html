@@ -252,11 +252,11 @@
 							Please provide us with your contact information.
 						</p>
 						<div>
-							<form action="" method="post">
-								<input class="contact-input" type="text" value="" placeholder="First Name">
-								<input class="contact-input" type="text" value="" placeholder="Last Name">
-								<input class="contact-input" type="email" value="" placeholder="Email Address">
-								<input class="contact-input" type="text" value="" placeholder="Phone Number">
+							<form name="contact_Us" action="" method="post" onsubmit="return validateForm()">
+								<input class="contact-input"  type="text" id="fname" value="" placeholder="First Name">
+								<input class="contact-input"  type="text" id="lname" value="" placeholder="Last Name">
+								<input class="contact-input"  type="email"id="email" value="" placeholder="Email Address">
+								<input class="contact-input"  type="tel"  id="tel"   value="" placeholder="Phone Number">
 								<div class="form-spacer">
 									<input type="submit" value="Submit">
 								</div>

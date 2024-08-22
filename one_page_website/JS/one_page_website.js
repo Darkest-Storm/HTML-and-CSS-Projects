@@ -38,3 +38,17 @@ function openModal() {
     dots[slideIndex-1].className += " active";
     captionText.innerHTML = dots[slideIndex-1].alt;
   }
+
+   function validateForm() {
+    let x = document.getElementById('fname').value;
+    let y = document.getElementById('lname').value;
+    let a = document.getElementById('email').value;
+    let b = document.getElementById('tel').value;
+    if (x === "" || y === '' || a ==='' || b ==='') {
+      alert("all fields must be filled out");
+      return false;
+    }
+  } 
+
+
+
