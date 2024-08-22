@@ -21,4 +21,5 @@ This is a hoppy site for those interested in lightning/storms.
 This page is an example home page for a movie theater that is styled using Bootstrap 4. It contains many Bootstrap compenents such as: navbar, jumbotron, form, cards, and dropdowns
 
 ### Portfolio site
-This is an ongoing project, showcaseing HTML and CSS and will be added to.
+This is an ongoing project, showcaseing HTML and CSS.
+Added JS and slideshow.
